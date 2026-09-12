@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HW3 vs HW4 / FSD (Supervised) settings checklist — Jon Herrity / TechGeek Tesla</title>
+  <meta name="description" content="One-page HW3 vs HW4 and FSD (Supervised) settings checklist you can use in the car. Public owner’s-manual information only. Independent creator — not Tesla.">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="inner">
+      <a class="brand" href="/">
+        <span class="name">TechGeek Tesla</span>
+        <span class="tag">Unofficial · independent</span>
+      </a>
+      <nav aria-label="Primary">
+        <a href="/coaching/">Coaching</a>
+        <a href="/checklist/" aria-current="page">Checklist</a>
+        <a href="/sponsors/">Sponsors</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <article class="wrap">
+      <p class="unofficial">Not affiliated with Tesla, Inc.</p>
+      <h1>HW3 vs HW4 / FSD (Supervised) settings checklist</h1>
+      <p class="lede">One page you can actually use in the car. Print it, screenshot it, or keep it in Notes. Public Tesla owner’s-manual and release-note information only. Not Tesla. Not a service department. Not a promise the car will drive itself.</p>
+      <p class="meta">Jon Herrity · TechGeek Tesla · Chicago NW suburbs · FSD Early Access tester since 2021<br>
+      Independent creator. I own Teslas and I film them. I do not speak for Tesla. I do not work for Tesla.</p>
+
+      <form class="capture" name="checklist" method="POST" data-netlify="true" action="/checklist/thanks/" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="checklist">
+        <p class="hp" style="display:none" aria-hidden="true">
+          <label>Leave empty <input name="bot-field"></label>
+        </p>
+        <h2>Email me this checklist</h2>
+        <p class="hint">Name and email. I send the page. No newsletter pile-on.</p>
+        <label class="field">
+          <span>Name</span>
+          <input type="text" name="name" autocomplete="name" required>
+        </label>
+        <label class="field">
+          <span>Email</span>
+          <input type="email" name="email" autocomplete="email" required>
+        </label>
+        <button class="btn" type="submit">Email me this checklist</button>
+      </form>
+
+      <h2>0. Read this first (60 seconds)</h2>
+      <p>Full Self-Driving <strong>(Supervised)</strong> is a driver-assist feature. Tesla’s own language: it does <strong>not</strong> make the vehicle autonomous. You stay attentive. You stay ready to take over. The cabin camera watches you. Devices that fake occupancy or attentiveness can get the feature shut off for good.</p>
+      <p>This checklist is for <strong>owners who intend to supervise</strong>. If you want hands-off, sleep, or a jailbreak, stop here. That is not what this is.</p>
+      <p>Software moves. Menu names shift. If your car does not show a line below, skip it — do not hunt for a hidden flag. Check Tesla’s in-car release notes and the owner’s manual for <em>your</em> software version.</p>
+
+      <h2>1. What computer is in <em>this</em> car?</h2>
+      <p>Do not guess from the year on the window sticker. Do not guess from a Facebook group. Check the car.</p>
+
+      <h3>In the car (definitive)</h3>
+      <ul class="check-list">
+        <li><label class="check"><input type="checkbox"> Park. <strong>Controls → Software</strong>.</label></li>
+        <li><label class="check"><input type="checkbox"> Tap <strong>Additional Vehicle Information</strong>.</label></li>
+        <li><label class="check"><input type="checkbox"> Find <strong>Autopilot computer</strong> (some newer builds label this <strong>AI Computer</strong>).</label></li>
+        <li><label class="check"><input type="checkbox"> Write it down: <span class="write-in"></span> (you will typically see 2.5, 3, or 4 / AI4).</label></li>
+        <li><label class="check"><input type="checkbox"> Write the <strong>software version</strong> on the same Software screen: <span class="write-in"></span></label></li>
+        <li><label class="check"><input type="checkbox"> Write <strong>FSD purchased</strong> or <strong>FSD subscription</strong>: <span class="write-in"></span></label></li>
+      </ul>
+
+      <h3>If you cannot get in the car yet (used listing, not proof)</h3>
+      <ul class="check-list">
+        <li><label class="check"><input type="checkbox"> Front camera cluster: HW4 / AI4 cameras often show a <strong>red tint</strong>; HW3 fronts are not that red trio. This is a clue, not a lab test.</label></li>
+        <li><label class="check"><input type="checkbox"> Ask the seller for a photo of Additional Vehicle Information. No photo, no assumption.</label></li>
+        <li><label class="check"><input type="checkbox"> Delivery date is a rough filter (HW4 started showing up in 2023 on various lines). Retrofit history exists on older computers. <strong>The Software screen wins.</strong></label></li>
+      </ul>
+
+      <h3>What that number actually means (keep this boring on purpose)</h3>
+      <ul class="check-list">
+        <li><label class="check"><input type="checkbox"> <strong>HW3 and HW4 are different computers and different camera sets.</strong> Tesla has publicly kept them on <strong>different FSD software tracks</strong> at times (example from 2026 public notes: HW3 on an FSD <strong>v14 Lite</strong> branch; HW4 on the main v14.x branch). Lite is not a marketing insult — it is Tesla’s name for a distilled build that has to fit older compute.</label></li>
+        <li><label class="check"><input type="checkbox"> <strong>Same product name, same supervision rule.</strong> HW4 does not give you permission to look at your phone. HW3 is not “unsafe because YouTube said so.” Both are FSD (Supervised) if FSD is enabled and available on that VIN.</label></li>
+        <li><label class="check"><input type="checkbox"> <strong>There is no public, promised HW3 → HW4 retrofit</strong> the way older Autopilot computers were upgraded. Plan around the computer that is in the car.</label></li>
+        <li><label class="check"><input type="checkbox"> Unsupervised / Robotaxi talk on the internet is not your owner setting. Do not buy or sell a car on a rumor. Check Tesla’s current public statements if that is your actual decision.</label></li>
+      </ul>
+      <p><strong>Chicago-owner note:</strong> A HW3 Model 3 that has been on Early Access / current Lite builds will still do the commute. A HW4 will usually have more headroom on messy scenes. Neither one owes you a parking-lot miracle in February slush. Supervise both.</p>
+
+      <h2>2. Before you tap Start (every drive, not once)</h2>
+      <p>Tesla documents this. Skip it and the feature is flaky or unavailable.</p>
+      <ul class="check-list">
+        <li><label class="check"><input type="checkbox"> <strong>Cameras clean.</strong> Front cluster on the windshield, repeaters in the fenders, rear, B-pillars. Chicago winter: ice film, road salt, dirty slush. Wipe them. If the car says a camera is blinded, believe it.</label></li>
+        <li><label class="check"><input type="checkbox"> <strong>No bike rack, trailer, or cargo that blocks a camera.</strong> Manual: FSD (Supervised) may degrade or refuse.</label></li>
+        <li><label class="check"><input type="checkbox"> <strong>Headlights On or Auto.</strong> FSD (Supervised) is not available with headlights Off. When it engages, Adaptive Headlights / Auto High Beam and Auto wipers typically come on.</label></li>
+        <li><label class="check"><input type="checkbox"> <strong>Latest maps downloaded</strong> (Controls → Software / Maps — whatever your build uses). FSD is camera-first; Tesla still says current map data helps.</label></li>
+        <li><label class="check"><input type="checkbox"> <strong>Cabin camera unobstructed.</strong> No phone mount, sunglasses case, or fuzzy dice in front of it. A green indicator in the status bar means attentiveness monitoring is active. You cannot turn that off.</label></li>
+        <li><label class="check"><input type="checkbox"> Seatbelt on, you in the driver’s seat, doors / trunk / frunk closed, charge cable unplugged if you want <strong>Start from Park</strong>.</label></li>
+      </ul>
+
+      <h2>3. Turn FSD (Supervised) on — documented path</h2>
+      <p>Car must be in <strong>Park</strong> to enable or to switch back to Autosteer / TACC.</p>
+      <ul class="check-list">
+        <li><label class="check"><input type="checkbox"> <strong>Controls → Self-Driving → Full Self-Driving (Supervised)</strong> → read the pop-up → <strong>Yes</strong>.</label></li>
+        <li><label class="check"><input type="checkbox"> Note: with FSD (Supervised) enabled, Tesla sets Self-Driving Activation to <strong>Single Click</strong> (if equipped) and <strong>Traffic-Aware Cruise Control and Autosteer are unavailable</strong>. That is expected, not a bug.</label></li>
+        <li><label class="check"><input type="checkbox"> Optional: <strong>Controls → Tap to Start FSD (Supervised)</strong> if you want the on-screen button.</label></li>
+        <li><label class="check"><input type="checkbox"> <strong>Brake Confirm</strong> is on by default. Leave it on until you understand Start from Park. You tap <strong>Start Self-Driving</strong>, then press and release the brake.</label></li>
+      </ul>
+
+      <h3>To engage on the road (under 85 mph, including a standstill)</h3>
+      <ul class="check-list">
+        <li><label class="check"><input type="checkbox"> Right scroll-wheel <strong>button</strong> once, <strong>or</strong> <strong>Start Self-Driving</strong> on the screen.</label></li>
+        <li><label class="check"><input type="checkbox"> Blue <strong>Self-Driving</strong> on the display + your Speed Profile name = it is engaged. If it is not blue, it is not engaged.</label></li>
+      </ul>
+
+      <h3>Start from Park only works if Tesla’s driver checks pass</h3>
+      <p>Common blocks from the manual / release notes:</p>
+      <ul class="check-list">
+        <li><label class="check"><input type="checkbox"> Nobody in the driver’s seat, or occupancy spoof (do not)</label></li>
+        <li><label class="check"><input type="checkbox"> Seatbelt undone</label></li>
+        <li><label class="check"><input type="checkbox"> Door / trunk / frunk open</label></li>
+        <li><label class="check"><input type="checkbox"> Charge cable plugged in</label></li>
+        <li><label class="check"><input type="checkbox"> Valet / Track / other restricted mode</label></li>
+        <li><label class="check"><input type="checkbox"> Cabin camera blocked</label></li>
+      </ul>
+      <p>If Start from Park is grayed out, fix the list above. Do not look for a workaround.</p>
+
+      <h2>4. Speed Profile — pick one on purpose</h2>
+      <p>Tesla: FSD (Supervised) sets speed from <strong>your profile + speed limit + surrounding traffic</strong> (plus nav / fleet historical data). The right scroll wheel <strong>up/down changes the profile</strong>, not a precise mph offset, on current v14-class builds.</p>
+      <p>Default Tesla documents: <strong>Sloth</strong>.</p>
+      <p>Write what you use: <span class="write-in"></span></p>
+      <table class="profile-table">
+        <thead>
+          <tr>
+            <th>Profile (Tesla’s description)</th>
+            <th>Use it when…</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Sloth</strong></td>
+            <td>At or below the limit. New to FSD. School zones, neighborhood streets, first week with the car.</td>
+          </tr>
+          <tr>
+            <td><strong>Chill</strong></td>
+            <td>Slower lanes, minimal lane changes. Dense suburban arterials, bad weather, you are tired of extra passes.</td>
+          </tr>
+          <tr>
+            <td><strong>Standard</strong></td>
+            <td>Normal speed, matches traffic flow. Default “I have used this for a month” setting for a lot of owners.</td>
+          </tr>
+          <tr>
+            <td><strong>Hurry</strong></td>
+            <td>Faster, more lane changes. Highway with a clock — still supervised.</td>
+          </tr>
+          <tr>
+            <td><strong>Mad Max</strong></td>
+            <td>Quicker than Hurry, still more lane changes. Only if you will actually watch the car.</td>
+          </tr>
+        </tbody>
+      </table>
+      <ul class="check-list">
+        <li><label class="check"><input type="checkbox"> Profile is saved to <strong>your driver profile</strong>. Guest mode will not remember your Mad Max experiment. Good.</label></li>
+        <li><label class="check"><input type="checkbox"> <strong>Use HOV Lanes:</strong> on/off under Self-Driving. Illinois tollway HOV / Flex lanes are not a toy. If you are solo and the sign says 2+, leave this off.</label></li>
+        <li><label class="check"><input type="checkbox"> You can change profile <strong>while engaged</strong>: tap Self-Driving on the screen, or Controls → Self-Driving, or roll the right scroll.</label></li>
+        <li><label class="check"><input type="checkbox"> If the car is going too slow for the road you are on, a light accelerator nudge is a legal override. If it is doing something you do not like, <strong>take over</strong>. Do not sit there arguing with the visualization.</label></li>
+      </ul>
+
+      <h3>Chicago-owner defaults I actually use as a starting point (yours may differ)</h3>
+      <ul class="check-list">
+        <li><label class="check"><input type="checkbox"> Neighborhood / school zone / first-snow: <strong>Sloth or Chill</strong></label></li>
+        <li><label class="check"><input type="checkbox"> Dry NW-suburb commute on a known route: <strong>Standard</strong></label></li>
+        <li><label class="check"><input type="checkbox"> Tollway with traffic: <strong>Standard or Chill</strong>, not Mad Max on day one</label></li>
+        <li><label class="check"><input type="checkbox"> Construction, unmarked lefts, weird parking lots: be ready to <strong>steer or brake</strong>. The manual says intervention is expected in narrow roads, construction, complex intersections.</label></li>
+      </ul>
+
+      <h2>5. Arrival Options — tell it what “here” means</h2>
+      <p>While FSD (Supervised) is engaged, tap <strong>Self-Driving</strong> on the car-status area. Under <strong>At Destination</strong>:</p>
+      <ul class="check-list">
+        <li><label class="check"><input type="checkbox"> <strong>Park</strong> — if it finds a suitable spot, it parks. If it does not, Tesla says it <strong>pulls over</strong> instead.</label></li>
+        <li><label class="check"><input type="checkbox"> <strong>Pull Over</strong> — short stop (pickup / drop-off). Then it goes to Park when nav is done.</label></li>
+      </ul>
+      <p>On builds that shipped Arrival Options (v14-class public notes):</p>
+      <ul class="check-list">
+        <li><label class="check"><input type="checkbox"> <strong>Parking Lot / Street / Driveway / Parking Garage / Curbside</strong></label></li>
+        <li><label class="check"><input type="checkbox"> Preferences <strong>persist per destination</strong>. Set Home to Driveway once. Set the grocery store to Parking Lot once. Stop fighting it every trip.</label></li>
+      </ul>
+      <p>Write yours:</p>
+      <ul>
+        <li>Home: <span class="write-in"></span></li>
+        <li>Work: <span class="write-in"></span></li>
+        <li>School / kids drop-off: <span class="write-in"></span> (Pull Over / Curbside is usually the honest one)</li>
+      </ul>
+      <p>Parking and reversing on HW3 Lite vs HW4 full-branch are <strong>not the same experience</strong> even when the menu looks the same. If it fumbles a tight garage in the snow, take over. That is the job.</p>
+
+      <h2>6. Supervised-use habits (this is the part people skip)</h2>
+      <p>Tesla: cabin camera monitors attentiveness while FSD (Supervised) is engaged. <strong>Cannot be disabled.</strong> Sunglasses still count as “the system is active.”</p>
+      <ul class="check-list">
+        <li><label class="check"><input type="checkbox"> Green cabin-camera indicator = monitoring on. If you do not see it, do not assume you are invisible.</label></li>
+        <li><label class="check"><input type="checkbox"> Eyes on the road. Repeated look-away → <strong>Please pay attention to the road</strong>.</label></li>
+        <li><label class="check"><input type="checkbox"> If it cannot see hand/arm position, it will ask for <strong>slight turning force</strong> on the wheel. Give it. Do not install a weight, knob trick, or “nag killer.”</label></li>
+        <li><label class="check"><input type="checkbox"> Handheld phone while Self-Driving is engaged → Tesla will nag. Put the phone down. You are the fallback.</label></li>
+        <li><label class="check"><input type="checkbox"> Ignore enough warnings → <strong>Self-Driving temporarily disabled</strong> for the rest of the drive. Ignore <em>that</em> → chime, flashers, it tries to pull over. Then you are in a worse situation than if you had just driven.</label></li>
+        <li><label class="check"><input type="checkbox"> <strong>Five strikeouts = Autosteer + FSD (Supervised) suspended for a week.</strong> A strikeout is the system kicking you off for the rest of a trip after repeated inattention warnings. Check remaining strikeouts: <strong>Controls → Self-Driving</strong>. Tesla: a strikeout can be forgiven after <strong>3.5 days</strong> if you do not earn another. TACC and active safety stay on during a suspension.</label></li>
+        <li><label class="check"><input type="checkbox"> <strong>You taking over on purpose is not a strikeout.</strong> Driver-initiated disengage is expected. Practice it.</label></li>
+      </ul>
+
+      <h3>How to cancel (pick one, do it early)</h3>
+      <ul class="check-list">
+        <li><label class="check"><input type="checkbox"> Brake pedal</label></li>
+        <li><label class="check"><input type="checkbox"> Right scroll-wheel button</label></li>
+        <li><label class="check"><input type="checkbox"> Steer enough to take over</label></li>
+      </ul>
+      <p>Also disengages: shift out of Drive, door/trunk open, Automatic Emergency Braking event, seatbelt off / you leave the seat, cameras fail, you blow off attention nags.</p>
+      <p><strong>Take over immediately</strong> on the screen means now — not after you finish the sentence you were saying.</p>
+      <p><strong>Do this once in an empty lot:</strong> engage, cancel with the brake, engage, cancel with the wheel. Muscle memory beats a surprise on I-294.</p>
+
+      <h2>7. Visualization and overrides</h2>
+      <ul class="check-list">
+        <li><label class="check"><input type="checkbox"> Objects highlighted on the visualization are priorities the stack is working on. Tesla says the viz is <strong>not</strong> a complete picture of what the cameras see.</label></li>
+        <li><label class="check"><input type="checkbox"> Optional: <strong>Controls → Self-Driving → Expanded Full Self-Driving Visualization</strong>, then drag the viz full screen if you want more picture, less map.</label></li>
+        <li><label class="check"><input type="checkbox"> Lane changes: FSD (Supervised) does them <strong>without</strong> the old Navigate-on-Autopilot confirmation. A turn-signal can request a change. A turn-signal may <strong>not</strong> cancel a change already in progress — steer or brake to cancel.</label></li>
+        <li><label class="check"><input type="checkbox"> Never assume it will stop (or go) at a light or sign. Manual: behavior can look inconsistent from the driver’s seat. <strong>You</strong> decide whether to stop or go.</label></li>
+        <li><label class="check"><input type="checkbox"> Light accelerator is allowed to help it along. Full override is always allowed. Uncomfortable = take over. That is not failure. That is the product.</label></li>
+      </ul>
+
+      <h2>8. Chicago / Midwest “is this the car or the weather?”</h2>
+      <p>Run this before you blame HW3.</p>
+      <ul class="check-list">
+        <li><label class="check"><input type="checkbox"> Windshield in front of the cameras: interior film, exterior salt. Tesla has even added alerts for interior windshield contamination on some builds — Service cleans that, not a YouTube wipe.</label></li>
+        <li><label class="check"><input type="checkbox"> Repeater cameras packed with slush after a plow pass.</label></li>
+        <li><label class="check"><input type="checkbox"> Low sun on east-west suburban arterials at 7:30 a.m. and 4:30 p.m. in winter.</label></li>
+        <li><label class="check"><input type="checkbox"> Faded lane paint, temporary barrels, unmarked lefts, railroad crossings, roundabouts that were a four-way last year.</label></li>
+        <li><label class="check"><input type="checkbox"> School zones and crossing guards. Speed Profile down. Hands ready.</label></li>
+        <li><label class="check"><input type="checkbox"> Toll plazas / I-Pass lanes: watch the car; do not narrate.</label></li>
+      </ul>
+      <p>If cameras are dirty, FSD (Supervised) is not “broken.” It is blind. Clean them.</p>
+
+      <h2>9. Still stuck? That is the 1:1 call.</h2>
+      <p>If you want someone to sit with you for an hour, look at <em>your</em> Additional Vehicle Information screen, and set Speed Profile / Arrival / Start-from-Park the boring correct way — I do that.</p>
+      <p><strong>60 min $150 · 90 min $250 · virtual.</strong> Tesla owners only. Supervised use only. No repairs, no jailbreak, no unreleased software, no “secret Tesla access.”</p>
+      <p>Email me to schedule. Independent FSD creator — not a Tesla employee. Day job is regional sales at an electrical-components manufacturer (unnamed, unrelated, not for sale as consulting).</p>
+      <div class="btn-row">
+        <a class="btn" href="mailto:techgeektesla@gmail.com?subject=FSD%20coaching&amp;body=I%27d%20like%20to%20book%20a%2060-minute%20FSD%20coaching%20session%20(%24150).">Book 60 min — $150</a>
+        <a class="btn btn-ghost" href="mailto:techgeektesla@gmail.com?subject=FSD%20coaching&amp;body=I%27d%20like%20to%20book%20a%2090-minute%20FSD%20coaching%20session%20(%24250).">Book 90 min — $250</a>
+      </div>
+      <p>Questions: <a href="mailto:techgeektesla@gmail.com">techgeektesla@gmail.com</a>. YouTube: <a href="https://www.youtube.com/@techgeektesla">@techgeektesla</a>.</p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="inner">
+      <p>Jon Herrity · TechGeek Tesla · Chicago northwest suburbs</p>
+      <p>Independent FSD creator. Not a Tesla employee. Not Tesla Service. Education only, supervised FSD.</p>
+      <p><a href="mailto:techgeektesla@gmail.com">techgeektesla@gmail.com</a></p>
+    </div>
+  </footer>
+</body>
+</html>
