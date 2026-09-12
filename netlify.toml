@@ -1,0 +1,10 @@
+[build]
+  publish = "."
+
+# No splat 404 redirect: it intercepts Netlify form POSTs.
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
