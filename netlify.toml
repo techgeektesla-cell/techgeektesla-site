@@ -8,3 +8,15 @@
   [headers.values]
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[redirects]]
+  from = "/fsd_referral"
+  to = "https://www.tesla.com/get-app/referral?code=scott772523"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/fsd_referral/"
+  to = "https://www.tesla.com/get-app/referral?code=scott772523"
+  status = 302
+  force = true
